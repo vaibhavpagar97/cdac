@@ -1,0 +1,19 @@
+package Day2;
+
+import java.util.*;
+
+public class Practice {
+	static int i ;
+	static int j ;
+
+	public static void main(String[] args) {
+
+		int arr[]= {0,2,6};
+		
+		for(i = 0 ; i<arr.length;i++) {   // for loop to take 1st element of array
+			for(j=i+1;j<arr.length;j++) {   // for loop to take 2nd element of array to add in 1st element
+				
+				if (arr[i] + arr[j] == 6) {                  // if condition to check the addition of array elements 
+					System.out.println(arr[i] + " " +arr[j]);  // if any condition matches then it will print those two numbers
+				}
+			}
