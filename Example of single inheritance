@@ -19,3 +19,11 @@ class Driver {
 
 	}
 }
+
+
+
+//refer 3 example of inheritance
+
+//In general, we access the methods from the class where the methods are inside that class,
+//but in inheritance we are accessing the methods from the class which are not in that class which are inherited from other class,
+//we can not see those methods into the inherited class.
