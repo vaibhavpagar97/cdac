@@ -1,0 +1,21 @@
+public class Prac3 {
+
+	void print() {
+		System.out.println("Classs Prac3 is inherited");
+	}
+
+}
+
+class A extends Prac3 {
+
+}
+
+class Driver {
+
+	public static void main(String[] args) {
+		A a = new A();
+
+		a.print();
+
+	}
+}
