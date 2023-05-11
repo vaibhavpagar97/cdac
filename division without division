@@ -1,0 +1,72 @@
+package Practice;
+
+import java.util.Scanner;
+
+class Solution {
+	static int f;
+	static int c;
+	static int count;
+	static int limit;
+	static int a;
+	static int d;
+
+	public int divide(int limit, int dividend, int divisor) {
+
+		int g = c;
+		while (c >= f) {
+
+			c = c - f;
+			++count;
+		}
+
+		// System.out.println(count);
+		if (a < 0 || d < 0) {
+			return -count;
+		} else {
+			return count;
+		}
+
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter limit");
+		limit = sc.nextInt();
+		System.out.println("Enter a divid");
+		a = sc.nextInt();
+
+		int b = a + limit;
+		if (b > limit) {
+			c = b - limit;
+		} else {
+			c = 1000 - b;
+
+		}
+
+		System.out.println("Enter a diviser");
+		d = sc.nextInt();
+
+		int e = d + limit;
+		if (e > limit) {
+			f = e - limit;
+		} else {
+			f = limit - e;
+
+		}
+
+		Solution k = new Solution();
+		int l;
+		l = k.divide(limit, c, f);
+		System.out.println(l);
+
+	}
+}
+
+
+here...
+take input...
+convert it to positive integer
+
+perform opertion by substraction
+
+and again inside if condition print the diviser
