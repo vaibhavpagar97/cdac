@@ -38,4 +38,4 @@ class GFG {
 		System.out.println(obj.getName());
 	}
 }
-//author
+////author
