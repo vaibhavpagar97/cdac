@@ -17,4 +17,4 @@ public class Practice {
 					System.out.println(arr[i] + " " +arr[j]);  // if any condition matches then it will print those two numbers
 				}
 			}
-//
+////
